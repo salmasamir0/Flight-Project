@@ -31,7 +31,7 @@ def update_delete_page(reservations_window, rid, name, flight_number, seat_numbe
     entry_seat.pack(pady= 5, anchor="e")
     entry_seat.insert(0,seat_number)
 
-    label_departure = tkinter.label(update_delete_window, text="departure: ", font=("Ariel",18,"italic"), fg="Blue")
+    label_departure = tkinter.Label(update_delete_window, text="departure: ", font=("Ariel",18,"italic"), fg="Blue")
     label_departure.pack(pady= 10, anchor="w")
     entry_departure = tkinter.Entry(update_delete_window)
     entry_departure.pack(pady= 5, anchor="e")

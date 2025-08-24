@@ -2,7 +2,7 @@ import tkinter
 from tkinter import messagebox
 import sqlite3
 import dataBase
-from reservations import open_reservations_page
+from the_reservations import open_reservations_page
 from edit_reservations import update_delete_page
 
 def main_window():
